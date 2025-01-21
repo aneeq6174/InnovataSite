@@ -16,7 +16,7 @@ const Detail4 = () => {
       <Header style={{ zIndex: 9999 }} />
       <div className="h-[70vh] bg-cover bg-center flex items-center justify-center text-white" style={{ backgroundImage: `url(${Detail4Image1})` }}>
         <div className="bg-black bg-opacity-50 p-8 rounded-3xl">
-          <h1 className="text-6xl font-bold">Architectural Design Services </h1>
+          <h1 className="text-6xl font-bold">Luxury Pool Construction in Dubai  </h1>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ const Detail4 = () => {
             <img src={Detail4Image2} alt="Second Image" className="rounded-2xl w-full h-auto object-cover" style={{ maxHeight: '300px' }} />
           </div>
           <div className="w-full md:w-2/5 pl-10 pt-10">
-            <p className="text-5xl font-bold">Our best Luxurious Architectural Service In Dubai</p>
+            <p className="text-5xl font-bold">Our Luxury Pool Construction Service In Dubai </p>
           </div>
         </div>
 
@@ -36,8 +36,7 @@ const Detail4 = () => {
           </div>
           <div className="w-full md:w-2/5 pl-10 pt-10">
             <p className="text-2xl font-medium">
-            Our architectural design team specializes in creating stunning, functional spaces that reflect modern Dubai's dynamic spirit. We combine innovative design principles with practical solutions to deliver exceptional results. 
-            </p>
+            Our pool construction division specializes in creating luxurious swimming pools that complement Dubai's premier properties. We combine innovative technology with expert craftsmanship.             </p>
             </div>
         </div>
       </div>
@@ -55,9 +54,9 @@ const Detail4 = () => {
                     </a>
                   </h3>
                   <ol className="text-base text-body-color leading-relaxed mb-7">
-                    <li>•	Advanced 3D modeling and visualization  </li>
-                    <li>•	BIM (Building Information Modeling) integration </li>
-                    <li>•	Sustainable design principles  </li>
+                    <li>•	Advanced filtration systems </li>
+                    <li>•	Smart temperature control  </li>
+                    <li>•	LED lighting integration   </li>
                   </ol>
 
                 </div>
@@ -69,13 +68,13 @@ const Detail4 = () => {
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                     <a href="javascript:void(0)" className="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary">
-                    Key Services 
+                    Construction Features  
                     </a>
                   </h3>
                   <ol className="text-base text-body-color leading-relaxed mb-7">
-                    <li>•	Concept development </li>
-                    <li>•	Space planning  </li>
-                    <li>•	Technical drawings  </li>
+                    <li>•	Reinforced concrete structure  </li>
+                    <li>•	Waterproofing systems  </li>
+                    <li>•	Premium tiling options   </li>
                   </ol>
 
                 </div>
@@ -87,13 +86,13 @@ const Detail4 = () => {
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                     <a href="javascript:void(0)" className="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary">
-                    Why Choose Our Architectural Services 
+                    Why Choose Our Pool Services 
                     </a>
                   </h3>
                   <ol className="text-base text-body-color leading-relaxed mb-7">
-                    <li>•	Dubai Municipality approved designs </li>
-                    <li>•	Sustainable architecture solutions  </li>
-                    <li>•	Innovative space utilization  </li>
+                    <li>•	Certified pool engineers </li>
+                    <li>•	Premium material selection   </li>
+                    <li>•	Advanced technology integration </li>
                   </ol>
 
                 </div>
