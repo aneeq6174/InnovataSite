@@ -1,87 +1,112 @@
 import React from "react";
-import Detail1Image1 from "../assets/DetailsImg/Detail1/Detail1-1.webp"; // Importing the first image
-import Detail1Image2 from "../assets/DetailsImg/Detail1/Detail1-2.webp"; // Importing the second image
-import Detail1Image3 from "../assets/DetailsImg/Detail1/Detail1-3.webp"; // Importing the third image
-import Bedroom from "../assets/DetailsImg/Detail1/Bedroom.webp"; // Importing the bedroom image
-import Bath from "../assets/DetailsImg/Detail1/Bath.webp"; // Importing the bathroom image
-import Kitchen from "../assets/DetailsImg/Detail1/Kitchen.webp"; // Importing the kitchen image
+import Detail4Image1 from "../assets/DetailsImg/Detail4/1.webp";
+import Detail4Image2 from "../assets/DetailsImg/Detail4/2.webp";
+import Detail4Image3 from "../assets/DetailsImg/Detail4/3.webp";
+import Detail4Image4 from "../assets/DetailsImg/Detail4/4.webp";
+import Detail4Image5 from "../assets/DetailsImg/Detail4/5.webp";
+import Detail4Image6 from "../assets/DetailsImg/Detail4/6.webp";
+import Detail4Image7 from "../assets/DetailsImg/Detail4/7.webp";
 import Header from "../Components/Header";
 import ContactUs from "../Components/ContactForm";
 import ProjectGallery from "../Components/ProjectGallery";
 
-const Detail1 = () => {
+const Detail4 = () => {
   return (
     <div className="h-auto">
       <Header style={{ zIndex: 9999 }} />
-
-      {/* Hero Section */}
-      <div
-        className="h-[70vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{
-          backgroundImage: `url(${Detail1Image1})`, // Using the first imported image
-        }}
-      >
-        <div className="bg-black bg-opacity-50 p-8 rounded">
-          <h1 className="text-6xl font-bold">Luxury Interior Design Services</h1>
+      <div className="h-[70vh] bg-cover bg-center flex items-center justify-center text-white" style={{ backgroundImage: `url(${Detail4Image1})` }}>
+        <div className="bg-black bg-opacity-50 p-8 rounded-3xl">
+          <h1 className="text-6xl font-bold">Architectural Design Services </h1>
         </div>
       </div>
 
-      {/* Hero-2 Section */}
-      <div className="hero-2 mt-12 px-32"> {/* Added margin-top to space out the sections */}
-        
-        {/* First part of hero-2 */}
-        <div className="flex flex-wrap px-8 space-x-8 mt-10"> {/* Flexbox with spacing between items */}
+      <div className="hero-2 mt-12 px-32">
+        <div className="flex flex-wrap px-8 space-x-8 mt-10">
           <div className="w-full md:w-2/5 rounded-lg">
-            <img src={Detail1Image2} alt="Second Image" className="rounded-2xl w-full h-auto object-cover" style={{ maxHeight: '300px' }} />
+            <img src={Detail4Image2} alt="Second Image" className="rounded-2xl w-full h-auto object-cover" style={{ maxHeight: '300px' }} />
           </div>
           <div className="w-full md:w-2/5 pl-10 pt-10">
-            <p className="text-5xl font-bold">
-              Our Most Luxurious Interior Design Service In Dubai
-            </p>
+            <p className="text-5xl font-bold">Our best Luxurious Architectural Service In Dubai</p>
           </div>
         </div>
 
-        {/* Second part of hero-2 */}
-        <div className="flex flex-wrap px-8 mt-10 items-center justify-between"> {/* Added justify-between */}
+        <div className="flex flex-wrap px-8 mt-10 items-center justify-between">
           <div className="w-full md:w-3/5">
-            <img src={Detail1Image3} alt="Third Image" className="rounded-2xl w-full h-auto object-cover" style={{ maxHeight: '300px' }} />
+            <img src={Detail4Image3} alt="Third Image" className="rounded-2xl w-full h-auto object-cover" style={{ maxHeight: '300px' }} />
           </div>
           <div className="w-full md:w-2/5 pl-10 pt-10">
             <p className="text-2xl font-medium">
-              At Innovita Technical Service LLC, we understand that your interior space is a reflection of your personality and aspirations. Our Best luxurious interior design services blend functionality with aesthetics to create inspiring spaces that enhance your lifestyle.
+            Our architectural design team specializes in creating stunning, functional spaces that reflect modern Dubai's dynamic spirit. We combine innovative design principles with practical solutions to deliver exceptional results. 
             </p>
-          </div>
+            </div>
         </div>
       </div>
 
-      <div className="additional h-auto mt-32 px-40"> {/* Changed h-screen to h-auto to prevent overflow */}
+      <section className="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-[#F3F4F6]">
+        <div className="container">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+              <div className="bg-white rounded-lg overflow-hidden mb-10">
+                <img src={Detail4Image4} alt="image" className="w-full h-[300px] object-cover" />
+                <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                    <a href="javascript:void(0)" className="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary">
+                    Technical Specifications 
+                    </a>
+                  </h3>
+                  <ol className="text-base text-body-color leading-relaxed mb-7">
+                    <li>•	Advanced 3D modeling and visualization  </li>
+                    <li>•	BIM (Building Information Modeling) integration </li>
+                    <li>•	Sustainable design principles  </li>
+                  </ol>
 
-        <div className="heading text-balck flex flex-col justify-center items-center">
-          <p className="text-5xl font-semibold p-5">Specialized Services</p>
-        </div>
-
-        <div className="main-images w-full flex pt-20 justify-between">
-          {/* Left image */}
-          <div className="left-image w-1/3 flex items-center justify-center"> {/* Centering the left image vertically */}
-            <img src={Bath} alt="Bathroom image" className="w-full h-auto object-cover rounded-lg pr-10" style={{ maxHeight: '500px' }} />
-          </div>
-
-          {/* Right images */}
-          <div className="right-images w-2/3 flex flex-col space-y-6"> {/* Adjusted spacing */}
-            <div className="upper-image w-full">
-              <img src={Kitchen} alt="Kitchen Image" className="w-full h-auto object-cover rounded-lg" style={{ maxHeight: '250px' }} />
+                </div>
+              </div>
             </div>
-            <div className="lower-image w-full">
-              <img src={Bedroom} alt="Bedroom Image" className="w-full h-auto object-cover rounded-lg" style={{ maxHeight: '250px' }} />
+            <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+              <div className="bg-white rounded-lg overflow-hidden mb-10">
+                <img src={Detail4Image5} alt="image" className="w-full h-[300px] object-cover" />
+                <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                    <a href="javascript:void(0)" className="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary">
+                    Key Services 
+                    </a>
+                  </h3>
+                  <ol className="text-base text-body-color leading-relaxed mb-7">
+                    <li>•	Concept development </li>
+                    <li>•	Space planning  </li>
+                    <li>•	Technical drawings  </li>
+                  </ol>
+
+                </div>
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+              <div className="bg-white rounded-lg overflow-hidden mb-10">
+                <img src={Detail4Image6} alt="image" className="w-full h-[300px] object-cover" />
+                <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                  <h3>
+                    <a href="javascript:void(0)" className="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px] mb-4 block hover:text-primary">
+                    Why Choose Our Architectural Services 
+                    </a>
+                  </h3>
+                  <ol className="text-base text-body-color leading-relaxed mb-7">
+                    <li>•	Dubai Municipality approved designs </li>
+                    <li>•	Sustainable architecture solutions  </li>
+                    <li>•	Innovative space utilization  </li>
+                  </ol>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <ProjectGallery />
-      <ContactUs /> {/* Added space to separate the form */}
+      <ContactUs />
     </div>
   );
 };
 
-export default Detail1;
+export default Detail4;
