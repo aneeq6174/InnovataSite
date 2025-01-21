@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
+
+# Svelte
+.svelte-kit/
+
+# Vue
+/dist/
+
+# Nuxt
+.nuxt/
+nuxt-dist/
+
+# React Native
+/ios/Pods/
+/android/.gradle/
+/android/app/build/
+*.xcworkspace
+
+# Miscellaneous
+.idea/
+.vscode/
+.history/
+.c9/
+*.swp
+*~
